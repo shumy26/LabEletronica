@@ -1,0 +1,110 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\usepackage{cvpr}
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx, color, xcolor}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage[brazil]{babel}
+\usepackage{lipsum}
+\usepackage{float}
+\setlength{\headheight}{1.5cm}
+
+\fancypagestyle{plain}{%\fancyhf{}%}
+\lhead{\includegraphics[width=5cm,height=2cm]{logoFT.png}}
+\rhead{\includegraphics[width=5cm,height=2cm]{logoUnB.png}}
+
+\renewcommand{\headrulewidth}{1pt}%
+}
+
+% Changing the caption and 'References' names to Portuguese.
+\addto\captionsenglish{
+  \renewcommand{\figurename}{Figura}
+  \renewcommand{\tablename}{Tabela}
+  \renewcommand{\refname}{Referências bibliográficas}
+}
+
+% to-do: Using fontenc with T1 font encoding allows \hyphenation to take words with accents
+% as arguments. However, fontenc with T1 mess up with words containing 'ã' in all \subsection{}
+% commands.
+% If someone knows how to fix it, tell me!
+%
+%\usepackage[T1]{fontenc}
+
+% Put the words not correctly hyphenated down here. Words with accents must
+% be manually hyphenated in the text itself using the '\-' separator. See the examples
+% throughout this template.
+\hyphenation{co-e-ren-te u-sa-do de-li-mi-ta-do-res a-cer-ca va-lo-res cor-res-pon-den-te re-fe-ren-ci-a-das co-lu-na co-lu-nas em-bo-ra u-ti-li-da-de pro-ce-di-men-to ex-pe-ri-men-to fi-gu-ras}
+
+% If you comment hyperref and then uncomment it, you should delete
+% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
+% run, let it finish, and you should be clear).
+\usepackage[breaklinks=true,bookmarks=true]{hyperref}
+
+\cvprfinalcopy % *** Uncomment this line for the final submission
+
+%\def\cvprPaperID{****} % *** Enter the CVPR Paper ID here
+%\def\httilde{\mbox{\tt\raisebox{-.5ex}{\symbol{126}}}}
+
+% Pages are numbered in submission mode, and unnumbered in camera-ready
+% \ifcvprfinal\pagestyle{empty}\fi
+%\setcounter{page}{1}
+
+
+\begin{document}
+%%%%%%%%% TITLE
+\title{Modelo em \LaTeX\ de Relatório para a Disciplina de Laboratório de Eletrônica}
+
+\author{Aluno 1\\
+% To save space, use either the email address or home page, not both
+{\tt\small aluno1@aluno.unb.br}\\
+% Matrícula do primeiro autor
+{\tt\small 00/0000000}\\
+% Turma
+{\tt\small Turma A/D}
+\and
+Aluno 2\\
+{\tt\small aluno2@aluno.unb.br}\\
+% Matrícula do segundo autor
+{\tt\small 00/0000000}\\
+% Turma
+{\tt\small Turma A/D}
+\and
+Aluno 3\\
+{\tt\small aluno3@aluno.unb.br}\\
+% Matrícula do terceiro autor, se houver
+{\tt\small 00/0000000}\\
+% Turma
+{\tt\small Turma A/D}
+}
+
+\maketitle
+%\thispagestyle{empty}
+\section{Procedimento experimental}
+
+O experimento 1 consiste em uma familiarização com o software LTSpice para simulações de circuitos. A primeira simulação é de um divisor de corrente com uma fonte de 0.31mA e 3 resistores, com $R_1 = 26k\Omega, R_2 = 28k\Omega, R_3 = 1k\Omega$
+
+\begin{figure}
+\includegraphics[scale=0.4]{\LTSpice\Exp1}
+\end{figure}
+%-------------------------------------------------------------------------
+\section{Resultados e análises}
+
+A seção {\em Resultados e análises} deve apresentar os resultados obtidos após a execução do experimento em laboratório, bem como as análises dos mesmos, comparando-os com os valores obtidos nas simulações, dados na seção anterior, e com aqueles calculados segundo a teoria.  
+
+%------------------------------------------------------------------------
+\section{Conclusão}
+
+A seção {\em Conclusão} deve conter as conclusões alcançadas ao fim do experimento, as lições aprendidas, os problemas não resolvidos e as possíveis soluções que poderiam ser implementadas em experimentos futuros. Os alunos devem finalizar tratando do alcance, ou não, dos objetivos e da utilidade do experimento tendo em vista as aplicações e o contexto no qual se insere o tema do roteiro, os quais devem ter sido apresentados na seção {\em Introdução} (pré-relatório).
+
+{\small
+\bibliography{egbib}
+\bibliographystyle{ieee_fullname}
+}
+
+\end{document}
