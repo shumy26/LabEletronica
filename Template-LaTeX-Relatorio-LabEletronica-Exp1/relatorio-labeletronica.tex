@@ -60,13 +60,13 @@
 %%%%%%%%% TITLE
 \title{Experimento 1: Simulações LTspice}
 
-\author{Aluno 1\\
+\author{Yuri Shumyatsky\\
 % To save space, use either the email address or home page, not both
-{\tt\small aluno1@aluno.unb.br}\\
+{\tt\small 231012826@aluno.unb.br}\\
 % Matrícula do primeiro autor
-{\tt\small 00/0000000}\\
+{\tt\small 231012826}\\
 % Turma
-{\tt\small Turma A/D}
+{\tt\small Turma T02}
 \and
 Aluno 2\\
 {\tt\small aluno2@aluno.unb.br}\\
@@ -87,21 +87,126 @@ Aluno 3\\
 %\thispagestyle{empty}
 \section{Procedimento experimental}
 
-O experimento 1 consiste em uma familiarização com o software LTspice para simulações de circuitos. A primeira simulação é de um divisor de corrente com uma fonte de 0.31mA e 3 resistores, com $R_1 = 26k\Omega, R_2 = 28k\Omega, R_3 = 1k\Omega$
+O experimento 1 consiste em uma familiarização com o software LTspice para simulações de circuitos. As primeiras simulações são de um circuito divisor de corrente, com $R_1 = 26k\Omega, R_2 = 28k\Omega, R_3 = 1k\Omega$
 
 \begin{figure}[h]
 \caption{Circuito divisor de corrente}
 \includegraphics[scale=0.2]{figuras/fig1}
 \end{figure}
+
+Algumas simulações são feitas para um filtro RC passa altas com frequência de corte de 28kHz, no entanto. Essas são as Análises AC. Os valores dos componentes para esse circuito são $R_1=26k\Omega, C_1=0.219nF$ e uma fonte de tensão senoidal com amplitude de 1V.
+
+\begin{figure}[h]
+\caption{Circuito filtro passa-altas}
+\includegraphics[scale=0.2]{figuras/fig2}
+\end{figure}
+
 %-------------------------------------------------------------------------
 \section{Resultados e análises}
 
-A seção {\em Resultados e análises} deve apresentar os resultados obtidos após a execução do experimento em laboratório, bem como as análises dos mesmos, comparando-os com os valores obtidos nas simulações, dados na seção anterior, e com aqueles calculados segundo a teoria.  
+\subsection{ Análise de Ponto de Operação}
 
+Para o divisor de corrente analisado, a resistência equivalente é de $0.93k\Omega$ e portanto as correntes $i_1, i_2, i_3$ podem ser calculadas usando a fórmula:
+
+\[i_n = \frac{R_{eq}}{R_n}i\]
+
+O que resulta em $i_1 = 0.01109mA$, $i_2 = 0.0103mA$, $i_3 = 0.288mA$. Além disso, o cálculo da tensão do nó N001 é simplesmente $U=R_{eq}i$, resultando em $U=0.2883V$
+
+A análise de ponto de operação resultou em valores compatíveis com esses cálculos.
+
+\begin{figure}[h]
+\caption{Resultados análise DC op pnt}
+\includegraphics[scale=0.2]{figuras/fig3}
+\end{figure}
+
+\subsection{Análise Transiente}
+
+Para a análise transiente, a fonte deixa de ser DC e passa a ser um sinal triangular com período de 2ms e amplitude de 0.31mA.
+
+Seguem os gráficos das correntes.
+
+\begin{figure}[h]
+\caption{Correntes fonte e $R_1$}
+\includegraphics[scale=0.14]{figuras/fig4}
+\end{figure}
+
+\begin{figure}[h]
+\caption{Correntes fonte e $R_2$}
+\includegraphics[scale=0.14]{figuras/fig5}
+\end{figure}
+
+\begin{figure}[h]
+\caption{Correntes fonte e $R_3$}
+\includegraphics[scale=0.14]{figuras/fig6}
+\end{figure}
+
+O próximo gráfico mostra a validade da Lei das Correntes de Kirchhoff, ao comparar a corrente da fonte com a soma das correntes nos resistores.
+
+\begin{figure}[h]
+\caption{Validação da Lei das Correntes de Kirchhoff}
+\includegraphics[scale=0.15]{figuras/fig7}
+\end{figure}
+
+De forma semelhante, a figura 8 mostra a validade do Teorema de Tellegen ao comparar as potências fornecidas e dissipadas na fonte e nas resistências.
+
+\begin{figure}[h]
+\caption{Validação do Teorema de Tellegen}
+\includegraphics[scale=0.15]{figuras/fig8}
+\end{figure}
+
+\subsection{Análise AC}
+
+Essa análise é feita sobre o circuito filtro passa-altas. Para calcular o valor da capacitância necessário para que a frequência de corte seja $28kHz$, usa-se a seguinte fórmula:
+
+\[f_c=\frac{1}{2\pi RC} \implies C = \frac{1}{2\pi\cdot26\cdot28\cdot10^6}=0.219\cdot10^{-9}F\]
+
+Assim, são plotadas as respostas em amplitude e em fase do circuito na Figura 9.
+
+\begin{figure}[h]
+\caption{Resultado Análise AC}
+\includegraphics[scale=0.15]{figuras/fig9}
+\end{figure}\newpage
+
+Em seguida, é comparada a corrente fluindo pelo circuito com a curva calculada pelo LTspice através da fórmula:
+\[I = C\cdot\frac{dV}{dt}\]
+
+\begin{figure}[h]
+\caption{Plotagem da corrente calculada}
+\includegraphics[scale=0.15]{figuras/fig10}
+\end{figure}
+
+Como esperado, as curvas estão em concordância.
+
+\subsection{Varredura DC}
+
+Essa análise é novamente realizada com o circuito divisor de corrente, para obter a corrente de $R_1$ em função da corrente da fonte, entre 0 e 0.31mA.
+
+\begin{figure}[h]
+\caption{Resultado Varredura DC}
+\includegraphics[scale=0.15]{figuras/fig11}
+\end{figure}
+
+\subsection{Análise da Função de Transferência}
+
+Essa análise também é feita para o divisor de corrente, calculando a função de transferência do circuito, definida aqui como $\frac{V_{R_1}}{I_{fonte}}$. Esses valores já foram calculados na subseção \textbf{2.1} e valem: $V_{R_1} = U = 0.2883V$ e $I_{fonte} = i = 0.31mA$. Além disso, a impedância calculada na análise é simplesmente $R_{eq}$, que sabemos ser $0.93k\Omega$. Assim, temos que a função de transferência equivale a $\frac{0.2883}{0.31}\cdot10^3=930$.
+
+Na Figura 12 está o resultado do cálculo do software. 
+
+\begin{figure}[h]
+\caption{Resultado Análise Função de Transferência}
+\includegraphics[scale=0.2]{figuras/fig12}
+\end{figure}
 %------------------------------------------------------------------------
 \section{Conclusão}
 
-A seção {\em Conclusão} deve conter as conclusões alcançadas ao fim do experimento, as lições aprendidas, os problemas não resolvidos e as possíveis soluções que poderiam ser implementadas em experimentos futuros. Os alunos devem finalizar tratando do alcance, ou não, dos objetivos e da utilidade do experimento tendo em vista as aplicações e o contexto no qual se insere o tema do roteiro, os quais devem ter sido apresentados na seção {\em Introdução} (pré-relatório).
+Neste experimento, foi possível familiarizar-se com o uso do software LTspice para a simulação de circuitos elétricos, abrangendo análises DC, AC e transientes. A análise do divisor de corrente permitiu compreender o cálculo da resistência equivalente e a distribuição das correntes nos resistores, confirmando experimentalmente a Lei das Correntes de Kirchhoff e o Teorema de Tellegen.
+
+Para o filtro RC passa-altas, determinou-se a capacitância necessária para atingir a frequência de corte de 28 kHz e foram obtidas as respostas em amplitude e fase através de simulação AC. A comparação entre a corrente medida no circuito e a corrente calculada pelo software mostrou excelente concordância, validando o comportamento teórico do capacitor em sinais alternados.
+
+As análises transiente e de varredura DC reforçaram a compreensão sobre a dinâmica do circuito diante de sinais senoidais e triangulares, bem como a relação entre corrente e tensão nos elementos. A função de transferência do divisor de corrente foi confirmada numericamente, evidenciando a coerência entre teoria e simulação.
+
+
+Em suma, o experimento permitiu consolidar conceitos fundamentais de circuitos elétricos e eletrônicos, a aplicação de leis básicas de corrente e tensão, e a prática de simulação computacional como ferramenta de análise. Além disso, evidenciou a importância de correlacionar cálculos teóricos com resultados simulados, reforçando a confiabilidade das simulações para o estudo de sistemas elétricos e eletrônicos.
 
 {\small
 \bibliography{egbib}
