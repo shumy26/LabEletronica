@@ -167,6 +167,16 @@ Assim, são plotadas as respostas em amplitude e em fase do circuito na Figura 9
 \includegraphics[scale=0.15]{figuras/fig9}
 \end{figure}\newpage
 
+Como $\frac{P_o}{P_i} = \frac{V_o}{V_i}\frac{I_o}{I_i} = |H(j\omega)|^2, H(j\omega) = \frac{j\omega RC}{1+j\omega RC}$, e na frequência de corte $\omega=\frac{1}{RC}$, $|H(jf_c)|^2 = 1/2$, o que na escala dB resulta em aproximadamente -3.01dB.
+
+\begin{figure}[h]
+\caption{Análise Fator Po/Pi}
+\begin{center}
+\includegraphics[scale=0.2]{figuras/fig13}
+\end{center}
+\end{figure}
+
+
 Em seguida, é comparada a corrente fluindo pelo circuito com a curva calculada pelo LTspice através da fórmula:
 \[I = C\cdot\frac{dV}{dt}\]
 
@@ -179,7 +189,7 @@ Como esperado, as curvas estão em concordância.
 
 \subsection{Varredura DC}
 
-Essa análise é novamente realizada com o circuito divisor de corrente, para obter a corrente de $R_1$ em função da corrente da fonte, entre 0 e 0.31mA.
+Essa análise é novamente realizada com o circuito divisor de corrente, para obter a corrente de $R_1$ em função da corrente da fonte, entre 0 e 0.31mA.\newpage
 
 \begin{figure}[h]
 \caption{Resultado Varredura DC}
@@ -212,6 +222,10 @@ Em suma, o experimento permitiu consolidar conceitos fundamentais de circuitos e
 \bibliography{egbib}
 \bibliographystyle{ieee_fullname}
 }
+
+\begin{itemize}
+\item Razavi, B. Fundamentos de Microeletrônica, 2\textordfeminine Edição, LTC, 2014.
+\end{itemize}
 
 
 \end{document}

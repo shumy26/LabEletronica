@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  8 SEP 2025 01:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  8 SEP 2025 01:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**./relatorio-labeletronica.tex
-(relatorio-labeletronica.tex
+**./pre-relatorio-labeletronica.tex
+(pre-relatorio-labeletronica.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -417,8 +417,8 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-(relatorio-labeletronica.aux)
-\openout1 = `relatorio-labeletronica.aux'.
+(pre-relatorio-labeletronica.aux)
+\openout1 = `pre-relatorio-labeletronica.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
 LaTeX Font Info:    ... okay on input line 59.
@@ -465,24 +465,24 @@ fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 59.
- (relatorio-labeletronica.out) (relatorio-labeletronica.out)
+ (pre-relatorio-labeletronica.out) (pre-relatorio-labeletronica.out)
 \@outlinefile=\write3
-\openout3 = `relatorio-labeletronica.out'.
+\openout3 = `pre-relatorio-labeletronica.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
 
 
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
 
 
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 8
-8.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 7
+4.
 
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -490,66 +490,38 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 88.
+(hyperref)                removed on input line 84.
 
-<figuras/fig1.jpg, id=35, 971.63pt x 458.71375pt>
-File: figuras/fig1.jpg Graphic file (type jpg)
-<use figuras/fig1.jpg>
-Package pdftex.def Info: figuras/fig1.jpg  used on input line 94.
-(pdftex.def)             Requested size: 194.32256pt x 91.74112pt.
-<figuras/fig2.jpg, id=36, 719.68875pt x 565.11125pt>
-File: figuras/fig2.jpg Graphic file (type jpg)
-<use figuras/fig2.jpg>
-Package pdftex.def Info: figuras/fig2.jpg  used on input line 101.
-(pdftex.def)             Requested size: 143.9352pt x 113.02023pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 105.
+Underfull \hbox (badness 1173) in paragraph at lines 88--89
+[]\OT1/ptm/m/n/10 Neste ex-pe-ri-mento, buscou-se ex-plo-rar al-gu-mas das
+ []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 107.
+(hyperref)                removed on input line 92.
 
-<figuras/fig3.jpg, id=37, 724.7075pt x 563.10374pt>
-File: figuras/fig3.jpg Graphic file (type jpg)
-<use figuras/fig3.jpg>
-Package pdftex.def Info: figuras/fig3.jpg  used on input line 119.
-(pdftex.def)             Requested size: 144.93893pt x 112.61874pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 122.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<figuras/fig4.jpg, id=38, 1606.0pt x 350.30875pt>
-File: figuras/fig4.jpg Graphic file (type jpg)
-<use figuras/fig4.jpg>
-Package pdftex.def Info: figuras/fig4.jpg  used on input line 130.
-(pdftex.def)             Requested size: 224.83847pt x 49.04288pt.
-<figuras/fig5.jpg, id=39, 1606.0pt x 367.3725pt>
-File: figuras/fig5.jpg Graphic file (type jpg)
-<use figuras/fig5.jpg>
-Package pdftex.def Info: figuras/fig5.jpg  used on input line 135.
-(pdftex.def)             Requested size: 224.83847pt x 51.4318pt.
-<figuras/fig6.jpg, id=40, 1606.0pt x 313.17pt>
-File: figuras/fig6.jpg Graphic file (type jpg)
-<use figuras/fig6.jpg>
-Package pdftex.def Info: figuras/fig6.jpg  used on input line 140.
-(pdftex.def)             Requested size: 224.83847pt x 43.84349pt.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
+9.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<logoFT.png, id=41, 778.91pt x 322.20375pt>
+(C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<logoFT.png, id=35, 778.91pt x 322.20375pt>
 File: logoFT.png Graphic file (type png)
 <use logoFT.png>
-Package pdftex.def Info: logoFT.png  used on input line 144.
+Package pdftex.def Info: logoFT.png  used on input line 122.
 (pdftex.def)             Requested size: 142.25389pt x 56.90273pt.
-<logoUnB.png, id=43, 592.2125pt x 301.125pt>
+<logoUnB.png, id=37, 592.2125pt x 301.125pt>
 File: logoUnB.png Graphic file (type png)
 <use logoUnB.png>
-Package pdftex.def Info: logoUnB.png  used on input line 144.
+Package pdftex.def Info: logoUnB.png  used on input line 122.
 (pdftex.def)             Requested size: 142.2604pt x 56.90189pt.
+
 
 Package fancyhdr Warning: \headheight is too small (42.67912pt): 
 (fancyhdr)                Make it at least 60.50276pt, for example:
@@ -562,138 +534,216 @@ Package fancyhdr Warning: \headheight is too small (42.67912pt):
 umy/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
- <./logoFT.png> <./logoUnB.png (PNG copy)> <./figuras/fig1.jpg> <./figuras/fig2
-.jpg> <./figuras/fig3.jpg> <./figuras/fig4.jpg> <./figuras/fig5.jpg>]
-<figuras/fig7.jpg, id=64, 1606.0pt x 714.67pt>
-File: figuras/fig7.jpg Graphic file (type jpg)
-<use figuras/fig7.jpg>
-Package pdftex.def Info: figuras/fig7.jpg  used on input line 147.
-(pdftex.def)             Requested size: 240.8896pt x 107.19586pt.
-
-Overfull \hbox (3.75366pt too wide) in paragraph at lines 147--148
-[][] 
+ <./logoFT.png> <./logoUnB.png (PNG copy)>]
+Underfull \hbox (badness 3088) in paragraph at lines 122--124
+\OT1/ptm/m/n/10 quando os re-sis-to-res est[]ao de-vi-da-mente ca-sa-dos.
  []
 
-<figuras/fig8.jpg, id=65, 1606.0pt x 711.65875pt>
-File: figuras/fig8.jpg Graphic file (type jpg)
-<use figuras/fig8.jpg>
-Package pdftex.def Info: figuras/fig8.jpg  used on input line 154.
-(pdftex.def)             Requested size: 240.8896pt x 106.7442pt.
 
-Overfull \hbox (3.75366pt too wide) in paragraph at lines 154--155
-[][] 
+Underfull \hbox (badness 1990) in paragraph at lines 122--124
+\OT1/ptm/m/n/10 Essa configura[][]ao []e base para am-pli-fi-ca-do-res de
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 157.
+(hyperref)                removed on input line 134.
 
-<figuras/fig9.jpg, id=66, 1606.0pt x 715.67375pt>
-File: figuras/fig9.jpg Graphic file (type jpg)
-<use figuras/fig9.jpg>
-Package pdftex.def Info: figuras/fig9.jpg  used on input line 167.
-(pdftex.def)             Requested size: 240.8896pt x 107.34642pt.
 
-Overfull \hbox (3.75366pt too wide) in paragraph at lines 167--168
-[][] 
- []
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern -10.0pt
+(hyperref)                removed on input line 136.
 
+<figuras/fig1.jpg, id=54, 573.14125pt x 768.8725pt>
+File: figuras/fig1.jpg Graphic file (type jpg)
+<use figuras/fig1.jpg>
+Package pdftex.def Info: figuras/fig1.jpg  used on input line 142.
+(pdftex.def)             Requested size: 154.7502pt x 207.59834pt.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern -10.0pt
+(hyperref)                removed on input line 146.
+
+<figuras/fig2.jpg, id=55, 1320.935pt x 783.92876pt>
+File: figuras/fig2.jpg Graphic file (type jpg)
+<use figuras/fig2.jpg>
+Package pdftex.def Info: figuras/fig2.jpg  used on input line 153.
+(pdftex.def)             Requested size: 198.1317pt x 117.58423pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figuras/fig13.jpg, id=67, 658.46pt x 368.37625pt>
-File: figuras/fig13.jpg Graphic file (type jpg)
-<use figuras/fig13.jpg>
-Package pdftex.def Info: figuras/fig13.jpg  used on input line 175.
-(pdftex.def)             Requested size: 131.68967pt x 73.67393pt.
-<figuras/fig10.jpg, id=68, 1606.0pt x 713.66624pt>
+<figuras/fig3.jpg, id=56, 1606.0pt x 710.655pt>
+File: figuras/fig3.jpg Graphic file (type jpg)
+<use figuras/fig3.jpg>
+Package pdftex.def Info: figuras/fig3.jpg  used on input line 161.
+(pdftex.def)             Requested size: 240.8896pt x 106.59364pt.
+
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 161--162
+ [] 
+ []
+
+<figuras/fig4.jpg, id=57, 1606.0pt x 707.64375pt>
+File: figuras/fig4.jpg Graphic file (type jpg)
+<use figuras/fig4.jpg>
+Package pdftex.def Info: figuras/fig4.jpg  used on input line 172.
+(pdftex.def)             Requested size: 240.8896pt x 106.14198pt.
+
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 172--173
+ [] 
+ []
+
+[2 <./figuras/fig1.jpg> <./figuras/fig2.jpg> <./figuras/fig3.jpg> <./figuras/fi
+g4.jpg>]
+<figuras/fig5.jpg, id=67, 1606.0pt x 741.77126pt>
+File: figuras/fig5.jpg Graphic file (type jpg)
+<use figuras/fig5.jpg>
+Package pdftex.def Info: figuras/fig5.jpg  used on input line 184.
+(pdftex.def)             Requested size: 240.8896pt x 111.26088pt.
+
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 184--185
+ [] 
+ []
+
+<figuras/fig6.jpg, id=68, 1606.0pt x 676.5275pt>
+File: figuras/fig6.jpg Graphic file (type jpg)
+<use figuras/fig6.jpg>
+Package pdftex.def Info: figuras/fig6.jpg  used on input line 193.
+(pdftex.def)             Requested size: 240.8896pt x 101.47473pt.
+
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 193--194
+ [] 
+ []
+
+<figuras/fig7.jpg, id=69, 1606.0pt x 684.5575pt>
+File: figuras/fig7.jpg Graphic file (type jpg)
+<use figuras/fig7.jpg>
+Package pdftex.def Info: figuras/fig7.jpg  used on input line 202.
+(pdftex.def)             Requested size: 240.8896pt x 102.67918pt.
+
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 202--203
+ [] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern -10.0pt
+(hyperref)                removed on input line 207.
+
+<figuras/fig8.jpg, id=70, 866.23625pt x 566.115pt>
+File: figuras/fig8.jpg Graphic file (type jpg)
+<use figuras/fig8.jpg>
+Package pdftex.def Info: figuras/fig8.jpg  used on input line 214.
+(pdftex.def)             Requested size: 173.24417pt x 113.221pt.
+<figuras/fig9.jpg, id=71, 1606.0pt x 708.6475pt>
+File: figuras/fig9.jpg Graphic file (type jpg)
+<use figuras/fig9.jpg>
+Package pdftex.def Info: figuras/fig9.jpg  used on input line 223.
+(pdftex.def)             Requested size: 240.8896pt x 106.29254pt.
+
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 223--224
+ [] 
+ []
+
+[3 <./figuras/fig5.jpg> <./figuras/fig6.jpg> <./figuras/fig7.jpg> <./figuras/fi
+g8.jpg> <./figuras/fig9.jpg>]
+<figuras/fig10.jpg, id=81, 1606.0pt x 709.65125pt>
 File: figuras/fig10.jpg Graphic file (type jpg)
 <use figuras/fig10.jpg>
-Package pdftex.def Info: figuras/fig10.jpg  used on input line 185.
-(pdftex.def)             Requested size: 240.8896pt x 107.0453pt.
+Package pdftex.def Info: figuras/fig10.jpg  used on input line 237.
+(pdftex.def)             Requested size: 240.8896pt x 106.44308pt.
 
-Overfull \hbox (3.75366pt too wide) in paragraph at lines 185--186
-[][] 
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 237--238
+ [] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 190.
+(hyperref)                removed on input line 242.
 
-[2 <./figuras/fig6.jpg> <./figuras/fig7.jpg> <./figuras/fig8.jpg> <./figuras/fi
-g9.jpg> <./figuras/fig13.jpg> <./figuras/fig10.jpg>]
-<figuras/fig11.jpg, id=82, 1606.0pt x 716.6775pt>
+<figuras/fig11.jpg, id=82, 678.535pt x 431.6125pt>
 File: figuras/fig11.jpg Graphic file (type jpg)
 <use figuras/fig11.jpg>
-Package pdftex.def Info: figuras/fig11.jpg  used on input line 196.
-(pdftex.def)             Requested size: 240.8896pt x 107.49698pt.
+Package pdftex.def Info: figuras/fig11.jpg  used on input line 249.
+(pdftex.def)             Requested size: 135.70459pt x 86.32097pt.
+<figuras/fig12.jpg, id=83, 1606.0pt x 714.67pt>
+File: figuras/fig12.jpg Graphic file (type jpg)
+<use figuras/fig12.jpg>
+Package pdftex.def Info: figuras/fig12.jpg  used on input line 258.
+(pdftex.def)             Requested size: 224.83847pt x 100.05312pt.
+<figuras/fig13.jpg, id=84, 712.6625pt x 459.7175pt>
+File: figuras/fig13.jpg Graphic file (type jpg)
+<use figuras/fig13.jpg>
+Package pdftex.def Info: figuras/fig13.jpg  used on input line 267.
+(pdftex.def)             Requested size: 142.52997pt x 91.94186pt.
+<figuras/fig14.jpg, id=85, 1606.0pt x 711.65875pt>
+File: figuras/fig14.jpg Graphic file (type jpg)
+<use figuras/fig14.jpg>
+Package pdftex.def Info: figuras/fig14.jpg  used on input line 276.
+(pdftex.def)             Requested size: 240.8896pt x 106.7442pt.
 
-Overfull \hbox (3.75366pt too wide) in paragraph at lines 196--197
-[][] 
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 276--277
+ [] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 199.
+(hyperref)                removed on input line 280.
 
-<figuras/fig12.jpg, id=83, 1054.94125pt x 651.43375pt>
-File: figuras/fig12.jpg Graphic file (type jpg)
-<use figuras/fig12.jpg>
-Package pdftex.def Info: figuras/fig12.jpg  used on input line 207.
-(pdftex.def)             Requested size: 210.98451pt x 130.28444pt.
+<figuras/fig15.jpg, id=86, 814.04124pt x 449.68pt>
+File: figuras/fig15.jpg Graphic file (type jpg)
+<use figuras/fig15.jpg>
+Package pdftex.def Info: figuras/fig15.jpg  used on input line 287.
+(pdftex.def)             Requested size: 162.80536pt x 89.9344pt.
+<figuras/fig16.jpg, id=87, 1606.0pt x 712.6625pt>
+File: figuras/fig16.jpg Graphic file (type jpg)
+<use figuras/fig16.jpg>
+Package pdftex.def Info: figuras/fig16.jpg  used on input line 296.
+(pdftex.def)             Requested size: 240.8896pt x 106.89476pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 210.
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 296--297
+ [] 
+ []
 
-(relatorio-labeletronica.bbl
+(pre-relatorio-labeletronica.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-)
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-27.
- (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-[3 <./figuras/fig11.jpg> <./figuras/fig12.jpg>] (relatorio-labeletronica.aux)
+) [4 <./figuras/fig10.jpg> <./figuras/fig11.jpg> <./figuras/fig12.jpg> <./figur
+as/fig13.jpg> <./figuras/fig14.jpg> <./figuras/fig15.jpg> <./figuras/fig16.jpg>
+] (pre-relatorio-labeletronica.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-Package rerunfilecheck Info: File `relatorio-labeletronica.out' has not changed
-.
-(rerunfilecheck)             Checksum: 11D442485E68ED3CEAEF9648FAAD8EB9;1386.
+Package rerunfilecheck Info: File `pre-relatorio-labeletronica.out' has not cha
+nged.
+(rerunfilecheck)             Checksum: AF5736BDDA851342C2F6663AAC78E705;1267.
  ) 
 Here is how much of TeX's memory you used:
- 12569 strings out of 475248
- 200541 string characters out of 5757813
- 1939785 words of memory out of 5000000
- 33822 multiletter control sequences out of 15000+600000
- 585895 words of font info for 109 fonts, out of 8000000 for 9000
+ 12600 strings out of 475248
+ 201548 string characters out of 5757813
+ 1949785 words of memory out of 5000000
+ 33856 multiletter control sequences out of 15000+600000
+ 583429 words of font info for 100 fonts, out of 8000000 for 9000
  1155 hyphenation exceptions out of 8191
- 79i,15n,93p,541b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,16n,93p,612b,542s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi5.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmmi7.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/shumy/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/shumy/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/shumy/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/shumy
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Us
-ers/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pf
-b><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.
-pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.
-pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.
-pfb>
-Output written on relatorio-labeletronica.pdf (3 pages, 1062360 bytes).
+cmex10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi7.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/shumy/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/shumy/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/shumy/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/sh
+umy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/
+shumy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/
+shumy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on pre-relatorio-labeletronica.pdf (4 pages, 1519923 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 140 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 30 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
