@@ -76,18 +76,54 @@
 
 \begin{objetivo}
 % Resumo com não mais de 250 palavras.
-Aqui deve ser o objetivo do relatório.
+O objetivo deste experimento é compreender as diferentes imperfeições presentes nos amplificadores operacionais reais, distinguindo-as do modelo ideal estudado em aulas teóricas. Busca-se, ainda, verificar o funcionamento prático de circuitos com amplificadores operacionais, utilizando o modelo LM741, de modo a analisar suas limitações em corrente contínua (DC) e em corrente alternada (AC). Dessa forma, pretende-se relacionar os conceitos teóricos às características observadas experimentalmente, destacando o impacto dessas imperfeições no desempenho do circuito.
+
 
 \end{objetivo}
 
 %%%%%%%%% BODY TEXT
 \section{Introdução}
-Aqui deve ser apresentada uma pequena introdução de cada um dos assuntos abordados pelo roteiro.
 
-%------------------------------------------------------------------------
-\section{Fundamentação teórica}
+Entre as principais imperfeições em corrente contínua (DC) dos amplificadores operacionais destacam-se a tensão de offset de entrada, as correntes de polarização de entrada e a tensão de saturação de saída. Tais efeitos influenciam diretamente a precisão do circuito, podendo introduzir erros sistemáticos em medições e no ganho estático.
 
-A {\em Fundamentação teórica} deve apresentar a teoria necessária para a compreensão, execução e análise do experimento. Nesta seção têm de ser incluídas todas as equações pertinentes, entretanto, não convém que valores numéricos sejam introduzidos. Os valores específicos de resistência elétrica, capacitância, indutância, etc., utilizados em la\-bo\-ra\-tó\-rio podem ser apresentados nas seções {\em Procedimento experimental}, {\em Simulações} e {\em Resultados e análises}. 
+No domínio em corrente alternada (AC), o desempenho dos amplificadores operacionais é limitado pela largura de banda finita, pelo produto ganho-banda passante (GBW), pela taxa de variação máxima da tensão de saída (\textit{slew rate}) e pela resposta em frequência não ideal. Esses fatores determinam a faixa útil de operação do dispositivo em altas frequências e restringem sua capacidade de amplificar sinais rápidos ou de alta amplitude.
+
+O presente experimento busca caracterizar algumas dessas imperfeições, em especial aquelas relacionadas ao comportamento em AC. Para tanto, analisam-se diferentes configurações de amplificadores não-inversores, variando-se o ganho e verificando como o aumento deste impacta a frequência de corte e, consequentemente, o produto ganho-banda passante.
+
+\section{Fundamentação Teórica}
+
+O modelo ideal de um amplificador operacional considera:
+\begin{enumerate}
+    \item Ganho de malha aberta infinito;
+    \item Impedância de entrada infinita (corrente de entrada nula);
+    \item Impedância de saída nula;
+    \item Resposta em frequência ilimitada;
+    \item Ausência de ruído e imperfeições.
+\end{enumerate}
+
+Na prática, entretanto, essas condições não se verificam. As imperfeições em DC incluem:
+
+\begin{itemize}
+    \item \textbf{Tensão de offset de entrada} ($V_{OS}$): pequena diferença de tensão necessária entre as entradas para que a saída seja nula.
+    \item \textbf{Correntes de polarização} ($I_B$): correntes que fluem pelas entradas do op-amp, devidas à polarização dos transistores internos.
+    \item \textbf{Corrente de offset} ($I_{OS}$): diferença entre as correntes de polarização das duas entradas.
+    \item \textbf{Saturação da saída}: o sinal de saída não consegue ultrapassar valores próximos às tensões de alimentação, ficando limitado a uma faixa menor que $V_{CC}$.
+\end{itemize}
+
+As imperfeições em AC relacionam-se principalmente à resposta em frequência:
+
+\begin{itemize}
+    \item \textbf{Ganho em malha aberta dependente da frequência}: o ganho $A_{OL}(f)$ decai a partir de uma determinada frequência de pólo dominante.
+    \item \textbf{Produto ganho-banda (GBW)}: define a frequência em que o ganho de malha fechada cai para a unidade. Para qualquer configuração não inversora, vale aproximadamente:
+    \[
+    f_c \approx \frac{GBW}{A_{CL}},
+    \]
+    onde $A_{CL}$ é o ganho de malha fechada e $f_c$ a frequência de corte.
+    \item \textbf{Slew rate (SR)}: taxa máxima de variação da tensão de saída, que limita a resposta a sinais senoidais de alta frequência ou grande amplitude.
+\end{itemize}
+
+No caso do experimento realizado, o interesse está em observar como a redução da banda passante acompanha o aumento do ganho em configurações não inversoras. Assim, demonstra-se experimentalmente que, apesar das diferenças entre modelos ideais e reais, o produto $A_{CL} \cdot f_c$ tende a permanecer aproximadamente constante e próximo ao GBW especificado para o amplificador operacional utilizado (no caso, o LM741).
+
 
 %-------------------------------------------------------------------------
 
@@ -237,7 +273,7 @@ A figura 14 é o bode plot do ganho do circuito.
 \end{center}
 \end{figure}
 
-\newpage
+
 O produto ganho $\times$ banda passante do ampop nesse circuito continua sendo $A\cdot f_c$, sendo portanto $GBW = 102\cdot1.269\cdot10^6=129.4\cdot10^6$ O analisado bate com o razoável, porém com certa margem de erro. 
 
 \begin{figure}[h]
@@ -254,5 +290,9 @@ O produto ganho $\times$ banda passante do ampop nesse circuito continua sendo $
 \bibliography{egbib}
 \bibliographystyle{ieee_fullname}
 }
+
+\begin{itemize}
+\item Razavi, B. Fundamentos de Microeletrônica, 2\textordfeminine Edição, LTC, 2014.
+\end{itemize}
 
 \end{document}
