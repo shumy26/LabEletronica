@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  17 SEP 2025 20:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  17 SEP 2025 21:05
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -563,28 +563,25 @@ Package pdftex.def Info: figuras/fig1.jpg  used on input line 146.
 <figuras/fig2.jpg, id=49, 1606.0pt x 705.63625pt>
 File: figuras/fig2.jpg Graphic file (type jpg)
 <use figuras/fig2.jpg>
-Package pdftex.def Info: figuras/fig2.jpg  used on input line 155.
+Package pdftex.def Info: figuras/fig2.jpg  used on input line 156.
 (pdftex.def)             Requested size: 240.8896pt x 105.84087pt.
 
-Overfull \hbox (3.75366pt too wide) in paragraph at lines 155--156
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 156--157
  [] 
  []
 
 <figuras/fig3.jpg, id=50, 1606.0pt x 715.67375pt>
 File: figuras/fig3.jpg Graphic file (type jpg)
 <use figuras/fig3.jpg>
-Package pdftex.def Info: figuras/fig3.jpg  used on input line 164.
+Package pdftex.def Info: figuras/fig3.jpg  used on input line 166.
 (pdftex.def)             Requested size: 240.8896pt x 107.34642pt.
 
-Overfull \hbox (3.75366pt too wide) in paragraph at lines 164--165
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 166--167
  [] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 2269) in paragraph at lines 168--169
+Underfull \hbox (badness 2269) in paragraph at lines 170--171
 []\OT1/ptm/m/n/10 Como pode ser ob-ser-vado, a $\OML/cmm/m/it/10 f[]$ \OT1/ptm/
 m/n/10 en-con-trada []e de
  []
@@ -592,146 +589,135 @@ m/n/10 en-con-trada []e de
 <figuras/fig4.jpg, id=51, 1606.0pt x 744.7825pt>
 File: figuras/fig4.jpg Graphic file (type jpg)
 <use figuras/fig4.jpg>
-Package pdftex.def Info: figuras/fig4.jpg  used on input line 175.
+Package pdftex.def Info: figuras/fig4.jpg  used on input line 177.
 (pdftex.def)             Requested size: 240.8896pt x 111.71255pt.
 
-Overfull \hbox (3.75366pt too wide) in paragraph at lines 175--176
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 177--178
  [] 
  []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 <figuras/fig5.jpg, id=52, 1606.0pt x 715.67375pt>
 File: figuras/fig5.jpg Graphic file (type jpg)
 <use figuras/fig5.jpg>
-Package pdftex.def Info: figuras/fig5.jpg  used on input line 184.
+Package pdftex.def Info: figuras/fig5.jpg  used on input line 186.
 (pdftex.def)             Requested size: 240.8896pt x 107.34642pt.
 
-Overfull \hbox (3.75366pt too wide) in paragraph at lines 184--185
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 186--187
  [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2 <./figuras/fig1.jpg> <./figuras/fig2.jpg>]
+[2 <./figuras/fig1.jpg> <./figuras/fig2.jpg> <./figuras/fig3.jpg> <./figuras/fi
+g4.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 189.
+(hyperref)                removed on input line 191.
 
-<figuras/fig6.jpg, id=61, 677.53125pt x 485.815pt>
+<figuras/fig6.jpg, id=63, 677.53125pt x 485.815pt>
 File: figuras/fig6.jpg Graphic file (type jpg)
 <use figuras/fig6.jpg>
-Package pdftex.def Info: figuras/fig6.jpg  used on input line 196.
+Package pdftex.def Info: figuras/fig6.jpg  used on input line 198.
 (pdftex.def)             Requested size: 169.38239pt x 121.45345pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figuras/fig7.jpg, id=62, 1606.0pt x 715.67375pt>
+<figuras/fig7.jpg, id=64, 1606.0pt x 715.67375pt>
 File: figuras/fig7.jpg Graphic file (type jpg)
 <use figuras/fig7.jpg>
-Package pdftex.def Info: figuras/fig7.jpg  used on input line 205.
+Package pdftex.def Info: figuras/fig7.jpg  used on input line 207.
 (pdftex.def)             Requested size: 240.8896pt x 107.34642pt.
 
-Overfull \hbox (3.75366pt too wide) in paragraph at lines 205--206
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 207--208
  [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figuras/fig8.jpg, id=63, 1606.0pt x 717.68124pt>
+<figuras/fig8.jpg, id=65, 1606.0pt x 717.68124pt>
 File: figuras/fig8.jpg Graphic file (type jpg)
 <use figuras/fig8.jpg>
-Package pdftex.def Info: figuras/fig8.jpg  used on input line 215.
+Package pdftex.def Info: figuras/fig8.jpg  used on input line 217.
 (pdftex.def)             Requested size: 240.8896pt x 107.64754pt.
 
-Overfull \hbox (3.75366pt too wide) in paragraph at lines 215--216
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 217--218
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figuras/fig9.jpg, id=64, 1606.0pt x 714.67pt>
+<figuras/fig9.jpg, id=66, 1606.0pt x 714.67pt>
 File: figuras/fig9.jpg Graphic file (type jpg)
 <use figuras/fig9.jpg>
-Package pdftex.def Info: figuras/fig9.jpg  used on input line 225.
+Package pdftex.def Info: figuras/fig9.jpg  used on input line 227.
 (pdftex.def)             Requested size: 240.8896pt x 107.19586pt.
 
-Overfull \hbox (3.75366pt too wide) in paragraph at lines 225--226
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 227--228
  [] 
  []
 
-[3 <./figuras/fig3.jpg> <./figuras/fig4.jpg> <./figuras/fig5.jpg> <./figuras/fi
-g6.jpg> <./figuras/fig7.jpg> <./figuras/fig8.jpg> <./figuras/fig9.jpg>]
-<figuras/fig10.jpg, id=76, 1606.0pt x 711.65875pt>
+<figuras/fig10.jpg, id=67, 1606.0pt x 711.65875pt>
 File: figuras/fig10.jpg Graphic file (type jpg)
 <use figuras/fig10.jpg>
-Package pdftex.def Info: figuras/fig10.jpg  used on input line 234.
+Package pdftex.def Info: figuras/fig10.jpg  used on input line 236.
 (pdftex.def)             Requested size: 240.8896pt x 106.7442pt.
 
-Overfull \hbox (3.75366pt too wide) in paragraph at lines 234--235
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 236--237
  [] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 238.
+(hyperref)                removed on input line 240.
 
-<figuras/fig11.jpg, id=77, 1224.575pt x 750.805pt>
+[3 <./figuras/fig5.jpg> <./figuras/fig6.jpg> <./figuras/fig7.jpg> <./figuras/fi
+g8.jpg> <./figuras/fig9.jpg> <./figuras/fig10.jpg>]
+<figuras/fig11.jpg, id=78, 1224.575pt x 750.805pt>
 File: figuras/fig11.jpg Graphic file (type jpg)
 <use figuras/fig11.jpg>
-Package pdftex.def Info: figuras/fig11.jpg  used on input line 245.
+Package pdftex.def Info: figuras/fig11.jpg  used on input line 248.
 (pdftex.def)             Requested size: 244.91066pt x 150.15834pt.
 
-Overfull \hbox (7.77472pt too wide) in paragraph at lines 245--246
+Overfull \hbox (7.77472pt too wide) in paragraph at lines 248--249
  [] 
  []
 
-<figuras/fig12.jpg, id=78, 1606.0pt x 711.65875pt>
+<figuras/fig12.jpg, id=79, 1606.0pt x 711.65875pt>
 File: figuras/fig12.jpg Graphic file (type jpg)
 <use figuras/fig12.jpg>
-Package pdftex.def Info: figuras/fig12.jpg  used on input line 254.
+Package pdftex.def Info: figuras/fig12.jpg  used on input line 257.
 (pdftex.def)             Requested size: 240.8896pt x 106.7442pt.
 
-Overfull \hbox (3.75366pt too wide) in paragraph at lines 254--255
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 257--258
  [] 
  []
 
-<figuras/fig13.jpg, id=79, 1606.0pt x 721.69624pt>
+<figuras/fig13.jpg, id=80, 1606.0pt x 721.69624pt>
 File: figuras/fig13.jpg Graphic file (type jpg)
 <use figuras/fig13.jpg>
-Package pdftex.def Info: figuras/fig13.jpg  used on input line 263.
+Package pdftex.def Info: figuras/fig13.jpg  used on input line 266.
 (pdftex.def)             Requested size: 240.8896pt x 108.24976pt.
 
-Overfull \hbox (3.75366pt too wide) in paragraph at lines 263--264
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 266--267
+ [] 
+ []
+
+<figuras/fig14.jpg, id=81, 1606.0pt x 713.66624pt>
+File: figuras/fig14.jpg Graphic file (type jpg)
+<use figuras/fig14.jpg>
+Package pdftex.def Info: figuras/fig14.jpg  used on input line 275.
+(pdftex.def)             Requested size: 240.8896pt x 107.0453pt.
+
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 275--276
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figuras/fig14.jpg, id=80, 1606.0pt x 713.66624pt>
-File: figuras/fig14.jpg Graphic file (type jpg)
-<use figuras/fig14.jpg>
-Package pdftex.def Info: figuras/fig14.jpg  used on input line 272.
-(pdftex.def)             Requested size: 240.8896pt x 107.0453pt.
-
-Overfull \hbox (3.75366pt too wide) in paragraph at lines 272--273
- [] 
- []
-
-<figuras/fig15.jpg, id=81, 1606.0pt x 711.65875pt>
+<figuras/fig15.jpg, id=82, 1606.0pt x 711.65875pt>
 File: figuras/fig15.jpg Graphic file (type jpg)
 <use figuras/fig15.jpg>
-Package pdftex.def Info: figuras/fig15.jpg  used on input line 282.
+Package pdftex.def Info: figuras/fig15.jpg  used on input line 285.
 (pdftex.def)             Requested size: 240.8896pt x 106.7442pt.
 
-Overfull \hbox (3.75366pt too wide) in paragraph at lines 282--283
+Overfull \hbox (3.75366pt too wide) in paragraph at lines 285--286
  [] 
  []
 
@@ -739,9 +725,8 @@ Overfull \hbox (3.75366pt too wide) in paragraph at lines 282--283
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [4 <./figuras/fig10.jpg> <./figuras/fig11.jpg> <./figuras/fig12.jpg> <./figur
-as/fig13.jpg> <./figuras/fig14.jpg> <./figuras/fig15.jpg>]
-(pre-relatorio-labeletronica.aux)
+) [4 <./figuras/fig11.jpg> <./figuras/fig12.jpg> <./figuras/fig13.jpg> <./figur
+as/fig14.jpg> <./figuras/fig15.jpg>] (pre-relatorio-labeletronica.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -768,7 +753,7 @@ ms/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/shumy/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/shumy/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/shumy/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on pre-relatorio-labeletronica.pdf (4 pages, 1479206 bytes).
+Output written on pre-relatorio-labeletronica.pdf (4 pages, 1479139 bytes).
 PDF statistics:
  140 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
